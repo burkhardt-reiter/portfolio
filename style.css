@@ -11,7 +11,7 @@
     --rad-intensity: 1.5em;
     background-color: var(--independence);
     font-family: 'Open Sans', sans-serif;
-    font-size: .95em;
+    font-size: 1em;
     color: var(--independence);
 
     /* 
@@ -85,7 +85,20 @@ li {
 
 li > p {
     padding: 0;
-    font-size: .75em;
+    width: fit-content;
+    text-align: left;
+    margin-inline: 30px;
+
+    /* width:fit-content; */
+    /* font-size: .75em; */
+}
+
+.p-in-list {
+    padding: 0;
+    width: fit-content;
+    text-align: left;
+    margin-inline: 30px;
+    /* margin-inline:inherit; */
 }
 
 .less-padding {
@@ -95,7 +108,7 @@ li > p {
 }
 
 .container {
-    top: 25px; 
+    padding: 50px 0 50px; 
 }
 .header {
     background-color: var(--lapis-lazuli);
@@ -105,7 +118,7 @@ li > p {
 .employers {
     font-style: italic;
 
-    font-size: .9em;
+    /* font-size: .9em; */
 }
 .sub-heading {
     font-size: 1.2em;
