@@ -1,0 +1,3 @@
+[submodule "projects/tic_tac_toe"]
+	path = projects/tic_tac_toe
+	url = https://github.com/loscil412/tic_tac_toe
